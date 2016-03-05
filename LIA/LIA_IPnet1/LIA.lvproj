@@ -18,7 +18,6 @@
 		</Item>
 		<Item Name="LIA_Host.vi" Type="VI" URL="../LIA_Host.vi"/>
 		<Item Name="LIA_Host_FloatingPoint.vi" Type="VI" URL="../LIA_Host_FloatingPoint.vi"/>
-		<Item Name="LIA_IPnet_Readme.docx" Type="Document" URL="../LIA_IPnet_Readme.docx"/>
 		<Item Name="FPGA Target" Type="FPGA Target">
 			<Property Name="AutoRun" Type="Bool">false</Property>
 			<Property Name="configString.guid" Type="Str">{476DEAF0-9C20-443C-85E6-9A0B9CA8CC3C}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EPCI-7831R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX2TARGET_TYPEFPGA</Property>
@@ -30,23 +29,23 @@
 			<Property Name="Top-Level Timing Source" Type="Str">40 MHz Onboard Clock</Property>
 			<Property Name="Top-Level Timing Source Is Default" Type="Bool">true</Property>
 			<Item Name="LockinSubVIs" Type="Folder">
-				<Item Name="FXP NILIA_CIC_Stage.vi" Type="VI" URL="../../../../../../Users/Administrator/Downloads/LIA_IPnet/LIA_IPnet/LockinSubVIs/FXP NILIA_CIC_Stage.vi">
+				<Item Name="FXP NILIA_CIC_Stage.vi" Type="VI" URL="../LockinSubVIs/FXP NILIA_CIC_Stage.vi">
 					<Property Name="configString.guid" Type="Str">{476DEAF0-9C20-443C-85E6-9A0B9CA8CC3C}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EPCI-7831R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX2TARGET_TYPEFPGA</Property>
 					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EPCI-7831R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX2TARGET_TYPEFPGA</Property>
 				</Item>
-				<Item Name="FXP NILIA_Demodulator.vi" Type="VI" URL="../../../../../../Users/Administrator/Downloads/LIA_IPnet/LIA_IPnet/LockinSubVIs/FXP NILIA_Demodulator.vi">
+				<Item Name="FXP NILIA_Demodulator.vi" Type="VI" URL="../LockinSubVIs/FXP NILIA_Demodulator.vi">
 					<Property Name="configString.guid" Type="Str">{476DEAF0-9C20-443C-85E6-9A0B9CA8CC3C}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EPCI-7831R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX2TARGET_TYPEFPGA</Property>
 					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EPCI-7831R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX2TARGET_TYPEFPGA</Property>
 				</Item>
-				<Item Name="FXP NILIA_DetectFrequency.vi" Type="VI" URL="../../../../../../Users/Administrator/Downloads/LIA_IPnet/LIA_IPnet/LockinSubVIs/FXP NILIA_DetectFrequency.vi">
+				<Item Name="FXP NILIA_DetectFrequency.vi" Type="VI" URL="../LockinSubVIs/FXP NILIA_DetectFrequency.vi">
 					<Property Name="configString.guid" Type="Str">{476DEAF0-9C20-443C-85E6-9A0B9CA8CC3C}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EPCI-7831R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX2TARGET_TYPEFPGA</Property>
 					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EPCI-7831R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX2TARGET_TYPEFPGA</Property>
 				</Item>
-				<Item Name="FXP NILIA_MovingAverage.vi" Type="VI" URL="../../../../../../Users/Administrator/Downloads/LIA_IPnet/LIA_IPnet/LockinSubVIs/FXP NILIA_MovingAverage.vi">
+				<Item Name="FXP NILIA_MovingAverage.vi" Type="VI" URL="../LockinSubVIs/FXP NILIA_MovingAverage.vi">
 					<Property Name="configString.guid" Type="Str">{476DEAF0-9C20-443C-85E6-9A0B9CA8CC3C}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EPCI-7831R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX2TARGET_TYPEFPGA</Property>
 					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EPCI-7831R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX2TARGET_TYPEFPGA</Property>
 				</Item>
-				<Item Name="FXP NILIA_Shift_Arith.vi" Type="VI" URL="../../../../../../Users/Administrator/Downloads/LIA_IPnet/LIA_IPnet/LockinSubVIs/FXP NILIA_Shift_Arith.vi">
+				<Item Name="FXP NILIA_Shift_Arith.vi" Type="VI" URL="../LockinSubVIs/FXP NILIA_Shift_Arith.vi">
 					<Property Name="configString.guid" Type="Str">{476DEAF0-9C20-443C-85E6-9A0B9CA8CC3C}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EPCI-7831R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX2TARGET_TYPEFPGA</Property>
 					<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EPCI-7831R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX2TARGET_TYPEFPGA</Property>
 				</Item>
@@ -69,7 +68,7 @@
 				<Property Name="NI.LV.FPGA.Valid" Type="Bool">true</Property>
 				<Property Name="NI.LV.FPGA.Version" Type="Int">5</Property>
 			</Item>
-			<Item Name="LIA_FPGA.vi" Type="VI" URL="../../../../../../Users/Administrator/Downloads/LIA_IPnet/LIA_IPnet/LIA_FPGA.vi">
+			<Item Name="LIA_FPGA.vi" Type="VI" URL="../LIA_FPGA.vi">
 				<Property Name="configString.guid" Type="Str">{476DEAF0-9C20-443C-85E6-9A0B9CA8CC3C}ResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EPCI-7831R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX2TARGET_TYPEFPGA</Property>
 				<Property Name="configString.name" Type="Str">40 MHz Onboard ClockResourceName=40 MHz Onboard Clock;TopSignalConnect=Clk40;ClockSignalName=Clk40;MinFreq=40000000.000000;MaxFreq=40000000.000000;VariableFreq=0;NomFreq=40000000.000000;PeakPeriodJitter=250.000000;MinDutyCycle=50.000000;MaxDutyCycle=50.000000;Accuracy=100.000000;RunTime=0;SpreadSpectrum=0;GenericDataHash=D41D8CD98F00B204E9800998ECF8427EPCI-7831R/Clk40/falsefalseFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_FAMILYVIRTEX2TARGET_TYPEFPGA</Property>
 			</Item>
@@ -80,6 +79,11 @@
 					<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 					<Item Name="FxpSim.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/FXPMathLib/sim/FxpSim.dll"/>
 				</Item>
+				<Item Name="FXP NIPLL_CostaLoop.vi" Type="VI" URL="../PLL/FXP NIPLL_CostaLoop.vi"/>
+				<Item Name="FXP NIPLL_PI_LoopFilter.vi" Type="VI" URL="../PLL/FXP NIPLL_PI_LoopFilter.vi"/>
+				<Item Name="FXP NIPLL_VCO.vi" Type="VI" URL="../PLL/FXP NIPLL_VCO.vi"/>
+				<Item Name="FXP NIPLL_AveragingPD.vi" Type="VI" URL="../PLL/FXP NIPLL_AveragingPD.vi"/>
+				<Item Name="FXP NIPLL_OnePoleARM_IIR.vi" Type="VI" URL="../PLL/FXP NIPLL_OnePoleARM_IIR.vi"/>
 				<Item Name="niFpgaSctlEmulationGetInTimedLoop.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaSctlEmulationGetInTimedLoop.vi"/>
 				<Item Name="niFpgaSetErrorForExecOnDevCompSimple.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niFpgaSetErrorForExecOnDevCompSimple.vi"/>
 				<Item Name="niFpgaGetScratchAppInstance.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/eio/common/niFpgaGetScratchAppInstance.vi"/>
@@ -116,11 +120,6 @@
 				<Item Name="niFpgaSctlEmulationGlobalWrite.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaSctlEmulationGlobalWrite.vi"/>
 				<Item Name="niFpgaSctlEmulationRegisterWithScheduler.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaSctlEmulationRegisterWithScheduler.vi"/>
 				<Item Name="niFpgaEmulationVisToLoad.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/Emulation/niFpgaEmulationVisToLoad.vi"/>
-				<Item Name="FXP NIPLL_CostaLoop.vi" Type="VI" URL="../../../../../../Users/Administrator/Downloads/LIA_IPnet/LIA_IPnet/PLL/FXP NIPLL_CostaLoop.vi"/>
-				<Item Name="FXP NIPLL_PI_LoopFilter.vi" Type="VI" URL="../../../../../../Users/Administrator/Downloads/LIA_IPnet/LIA_IPnet/PLL/FXP NIPLL_PI_LoopFilter.vi"/>
-				<Item Name="FXP NIPLL_VCO.vi" Type="VI" URL="../../../../../../Users/Administrator/Downloads/LIA_IPnet/LIA_IPnet/PLL/FXP NIPLL_VCO.vi"/>
-				<Item Name="FXP NIPLL_AveragingPD.vi" Type="VI" URL="../../../../../../Users/Administrator/Downloads/LIA_IPnet/LIA_IPnet/PLL/FXP NIPLL_AveragingPD.vi"/>
-				<Item Name="FXP NIPLL_OnePoleARM_IIR.vi" Type="VI" URL="../../../../../../Users/Administrator/Downloads/LIA_IPnet/LIA_IPnet/PLL/FXP NIPLL_OnePoleARM_IIR.vi"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build"/>
 		</Item>
